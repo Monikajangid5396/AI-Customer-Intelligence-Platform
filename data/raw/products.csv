@@ -1,0 +1,501 @@
+product_id,product_name,category,brand,price,rating,stock,discount,is_available
+1,Culpa,Fashion,Boat,55802,1.1,105,13,True
+2,Alias,Electronics,Dell,26562,3.9,728,34,False
+3,Harum,Beauty,HP,77736,2.1,900,0,True
+4,Exercitationem,Toys,Puma,36921,1.6,990,48,False
+5,Et,Fashion,Apple,50297,1.4,877,22,False
+6,Deserunt,Electronics,HP,70784,1.5,954,24,True
+7,Corporis,Sports,Boat,47900,3.3,731,4,True
+8,Veritatis,Beauty,Adidas,10958,4.4,897,6,False
+9,Quisquam,Sports,HP,83820,4.3,176,23,False
+10,Commodi,Beauty,Adidas,92488,4.7,673,4,True
+11,Rerum,Beauty,Sony,61089,2.5,957,40,True
+12,Nisi,Books,Samsung,30521,4.3,834,20,False
+13,Aliquid,Sports,Apple,28153,4.7,590,45,False
+14,Aliquam,Beauty,HP,52356,4.5,668,29,True
+15,Consectetur,Sports,Sony,32825,4.0,561,16,False
+16,Esse,Toys,Puma,29246,5.0,151,32,False
+17,Eveniet,Fashion,Samsung,14871,1.6,173,50,False
+18,Quae,Fashion,LG,50519,3.4,489,33,False
+19,Sed,Electronics,Apple,89853,4.5,778,17,False
+20,Alias,Fashion,Adidas,57485,1.6,13,46,False
+21,Ratione,Home & Kitchen,Dell,14447,4.5,315,40,True
+22,Eius,Home & Kitchen,Puma,21674,3.2,807,33,True
+23,Totam,Books,HP,3052,1.4,381,19,True
+24,Voluptates,Electronics,Nike,74864,4.8,97,46,False
+25,Quisquam,Fashion,Dell,16983,1.5,496,35,True
+26,Nihil,Sports,Dell,80007,2.7,226,34,True
+27,Est,Sports,LG,88539,3.6,458,33,False
+28,Occaecati,Fashion,Nike,29951,1.3,31,37,True
+29,Repudiandae,Beauty,Samsung,9805,3.8,70,14,True
+30,Hic,Electronics,Puma,9787,3.1,295,42,False
+31,Ab,Beauty,Dell,17842,3.9,913,36,False
+32,Dolore,Beauty,HP,53854,1.8,109,42,False
+33,Voluptatem,Books,LG,54383,2.9,756,3,True
+34,Nisi,Electronics,LG,95948,2.4,892,6,True
+35,Laboriosam,Beauty,Nike,70792,2.8,442,11,False
+36,Hic,Grocery,Nike,10380,2.8,892,35,True
+37,Dolor,Electronics,Dell,2434,4.9,958,48,True
+38,Esse,Home & Kitchen,LG,64153,2.9,895,25,True
+39,Labore,Home & Kitchen,LG,782,4.9,281,50,False
+40,Corporis,Sports,LG,91803,4.8,812,35,False
+41,Consectetur,Home & Kitchen,Nike,39390,1.9,69,37,True
+42,Modi,Books,Samsung,7072,3.3,524,33,True
+43,Consequatur,Electronics,Dell,11000,4.4,80,38,True
+44,Magnam,Beauty,LG,16213,4.8,593,15,True
+45,Laborum,Fashion,LG,86663,3.3,545,20,False
+46,Sed,Beauty,Puma,31785,2.1,144,42,False
+47,Fuga,Grocery,Puma,99048,4.7,19,29,True
+48,Aperiam,Fashion,Dell,28438,3.0,145,22,True
+49,Officia,Beauty,Puma,37853,1.6,863,34,False
+50,Quidem,Electronics,Dell,39740,4.7,116,8,False
+51,Cupiditate,Fashion,Apple,97810,3.2,288,18,True
+52,Minus,Books,Nike,90611,3.5,280,32,False
+53,Beatae,Sports,Samsung,12597,3.5,859,17,True
+54,Quod,Electronics,Puma,17646,3.5,278,10,False
+55,Impedit,Toys,Dell,1767,1.4,977,44,True
+56,Sunt,Electronics,Puma,76850,3.2,450,8,True
+57,Sit,Sports,Puma,5729,4.6,225,43,True
+58,Magni,Fashion,Puma,73885,4.5,426,39,True
+59,Repellat,Beauty,Sony,23706,4.5,35,11,False
+60,Earum,Toys,Nike,35470,1.6,728,6,False
+61,Voluptatibus,Electronics,HP,29654,1.8,950,29,False
+62,Atque,Sports,Nike,29719,1.1,207,25,False
+63,Aperiam,Sports,Apple,37085,2.4,531,25,False
+64,Ut,Electronics,Apple,34737,1.7,995,16,True
+65,Eum,Fashion,Boat,57459,2.4,815,20,False
+66,Illum,Fashion,LG,76074,1.8,55,45,False
+67,Beatae,Electronics,Dell,71075,3.7,972,47,True
+68,Eveniet,Books,LG,9671,4.8,952,21,False
+69,Consequuntur,Fashion,Adidas,66969,2.2,428,20,False
+70,Modi,Sports,Dell,17183,1.8,690,24,True
+71,Hic,Sports,LG,72319,4.3,321,18,True
+72,Odit,Toys,Boat,80016,3.6,486,28,False
+73,Tempora,Beauty,Dell,62521,4.2,992,50,True
+74,Maiores,Fashion,Adidas,68061,3.7,644,21,True
+75,Dolorem,Beauty,Adidas,29944,4.2,160,1,True
+76,Maxime,Beauty,HP,80620,4.4,84,29,False
+77,Libero,Beauty,LG,65299,2.6,161,41,True
+78,Eos,Fashion,LG,29183,1.7,990,44,False
+79,Velit,Electronics,Dell,33162,4.7,134,29,True
+80,Fugiat,Grocery,Dell,73759,3.4,982,48,False
+81,Voluptates,Toys,Dell,58946,4.6,771,30,False
+82,Vero,Sports,Nike,84079,2.1,806,33,False
+83,Tenetur,Beauty,Adidas,58154,1.3,302,15,False
+84,Aut,Books,Puma,71298,1.3,164,14,False
+85,Sequi,Home & Kitchen,Nike,8918,2.7,348,34,False
+86,Tempora,Toys,Samsung,27610,4.3,408,49,True
+87,Dolores,Toys,HP,1272,4.8,315,48,False
+88,Quibusdam,Toys,Dell,98478,3.9,829,38,True
+89,Exercitationem,Grocery,Nike,36274,2.7,39,24,False
+90,Dolorem,Toys,Sony,61761,4.7,647,34,True
+91,Officiis,Toys,Boat,74475,3.7,95,41,False
+92,Modi,Home & Kitchen,HP,24319,1.2,398,20,True
+93,Fugit,Grocery,Puma,44736,4.0,398,17,False
+94,Tempore,Sports,Apple,62144,1.1,562,3,False
+95,Voluptas,Beauty,Apple,85926,1.2,41,15,True
+96,Quos,Electronics,Boat,20473,2.0,494,42,True
+97,Est,Beauty,HP,92180,2.0,387,10,True
+98,Vitae,Home & Kitchen,Adidas,14668,3.3,961,19,False
+99,Itaque,Toys,Nike,10461,3.4,860,40,True
+100,Aspernatur,Fashion,Adidas,90187,3.4,133,50,True
+101,Eum,Books,Dell,56648,3.6,80,32,False
+102,Aliquid,Electronics,LG,64751,1.4,993,23,False
+103,Ipsam,Home & Kitchen,LG,23586,3.9,998,41,False
+104,Natus,Grocery,HP,57591,4.3,616,17,False
+105,Fugiat,Beauty,Apple,37059,4.5,259,48,False
+106,At,Toys,Puma,4261,3.0,342,11,False
+107,Error,Beauty,Puma,34362,2.4,911,38,False
+108,Reiciendis,Electronics,Dell,25542,1.3,747,26,False
+109,Ipsam,Beauty,HP,85159,3.8,468,50,True
+110,Error,Fashion,Adidas,29545,2.6,259,19,False
+111,Ullam,Grocery,Dell,70088,2.4,773,35,False
+112,Praesentium,Books,HP,36009,2.2,246,7,True
+113,Nam,Books,Apple,97870,3.1,790,44,True
+114,Temporibus,Beauty,Nike,97310,2.9,751,37,False
+115,Officia,Fashion,Nike,39329,1.9,193,19,True
+116,Dicta,Home & Kitchen,Adidas,6465,4.9,576,18,True
+117,Fuga,Grocery,Apple,2107,3.3,490,30,False
+118,Deserunt,Books,Sony,7234,2.0,892,30,True
+119,Expedita,Fashion,LG,64954,1.3,654,43,True
+120,Ratione,Home & Kitchen,Sony,74272,4.8,97,15,True
+121,Quidem,Toys,Boat,78635,4.2,241,49,False
+122,Fuga,Grocery,HP,39474,4.4,449,19,True
+123,Reprehenderit,Fashion,Nike,82487,1.8,686,5,True
+124,Nobis,Beauty,Sony,72850,1.3,12,26,False
+125,Reprehenderit,Grocery,Adidas,4778,1.9,733,18,False
+126,Natus,Fashion,Nike,35175,4.2,650,37,True
+127,Magni,Toys,Apple,71876,1.9,162,17,True
+128,Est,Fashion,Samsung,22247,4.2,619,47,False
+129,Deserunt,Grocery,Apple,61933,3.8,726,25,False
+130,Quaerat,Grocery,HP,11043,3.4,920,27,False
+131,Possimus,Sports,Samsung,12470,1.9,700,36,True
+132,Consectetur,Sports,Boat,5773,4.1,189,30,False
+133,Architecto,Sports,Sony,77220,2.7,843,31,True
+134,Culpa,Grocery,Puma,54023,2.3,696,6,True
+135,Dolor,Books,LG,91421,3.0,688,25,True
+136,Sunt,Grocery,Apple,41724,2.0,128,49,False
+137,Dolore,Electronics,Dell,61052,2.7,202,33,False
+138,Vero,Grocery,HP,7264,1.8,572,8,False
+139,Nisi,Grocery,HP,16415,1.1,655,38,True
+140,Saepe,Home & Kitchen,Adidas,72699,1.1,427,5,True
+141,At,Fashion,HP,15896,3.6,167,31,False
+142,Molestiae,Sports,LG,63742,4.9,259,29,True
+143,Modi,Toys,Nike,79061,3.0,910,8,True
+144,Saepe,Sports,LG,45048,4.7,529,17,True
+145,Omnis,Sports,Adidas,77431,3.3,685,31,True
+146,Quia,Grocery,Dell,63983,2.4,575,48,False
+147,Explicabo,Grocery,Puma,25227,4.9,254,36,False
+148,Quod,Beauty,LG,6220,2.3,494,45,False
+149,Accusamus,Toys,Sony,65423,4.9,139,32,False
+150,Vero,Fashion,HP,13569,3.1,477,0,True
+151,Cum,Toys,Sony,10307,2.9,281,21,False
+152,Vero,Fashion,Puma,88889,4.4,399,20,False
+153,Quidem,Electronics,Boat,9468,1.9,710,18,True
+154,Fugiat,Fashion,LG,13403,4.0,730,6,False
+155,Temporibus,Home & Kitchen,Adidas,4294,1.2,825,3,False
+156,Laboriosam,Books,Puma,56950,1.6,553,26,True
+157,Culpa,Home & Kitchen,Sony,10850,3.4,401,39,True
+158,Impedit,Grocery,Boat,19258,1.9,663,16,False
+159,Nostrum,Sports,Samsung,61481,4.6,703,34,True
+160,Dolore,Fashion,HP,45793,5.0,316,40,False
+161,Odit,Sports,HP,40099,1.8,403,30,True
+162,A,Beauty,LG,75463,2.4,312,44,False
+163,Fuga,Electronics,LG,36476,1.0,895,43,True
+164,Provident,Grocery,Adidas,30662,3.4,370,14,True
+165,Dolorum,Sports,Sony,82845,1.4,652,41,True
+166,Quae,Sports,HP,4873,3.3,759,8,True
+167,Corrupti,Sports,Puma,98473,2.7,215,8,False
+168,Sunt,Sports,Sony,34181,4.7,976,30,False
+169,In,Books,Apple,61885,4.9,154,48,True
+170,Tempore,Toys,Dell,48442,1.4,414,0,False
+171,Quae,Fashion,HP,48811,3.7,698,16,False
+172,Sequi,Books,Apple,88952,1.9,35,39,False
+173,Eius,Beauty,Apple,83783,4.3,941,44,False
+174,Dolor,Toys,Apple,18820,1.2,48,19,False
+175,Minima,Fashion,Apple,31275,4.5,148,24,False
+176,Dolorem,Books,Dell,55435,3.3,754,9,False
+177,Quis,Fashion,HP,81194,2.6,984,17,True
+178,Quia,Books,Nike,58615,2.8,251,23,True
+179,A,Books,Dell,85018,2.4,417,17,True
+180,Sapiente,Fashion,HP,12515,3.7,667,40,True
+181,Iste,Electronics,Puma,32425,5.0,815,36,True
+182,Porro,Fashion,Dell,27652,3.3,842,14,False
+183,Ad,Home & Kitchen,Boat,871,2.1,158,8,False
+184,Culpa,Home & Kitchen,Apple,87146,4.5,144,0,False
+185,Magni,Beauty,Boat,42937,1.1,281,3,True
+186,Inventore,Toys,Dell,15396,4.0,497,28,False
+187,Excepturi,Fashion,HP,66539,1.9,639,2,False
+188,Aspernatur,Grocery,Samsung,8472,5.0,877,25,False
+189,Excepturi,Fashion,HP,93875,4.6,85,5,False
+190,Reiciendis,Home & Kitchen,Apple,17040,2.1,658,37,False
+191,Beatae,Toys,Boat,70041,2.2,527,38,False
+192,Blanditiis,Fashion,Apple,86314,3.6,797,35,True
+193,Placeat,Toys,HP,30449,2.7,857,29,False
+194,Atque,Toys,Apple,41466,2.7,691,16,False
+195,Quibusdam,Home & Kitchen,HP,9299,1.4,97,5,False
+196,Debitis,Fashion,Puma,17554,3.2,610,35,False
+197,Debitis,Fashion,LG,46846,4.5,973,48,False
+198,Unde,Electronics,Adidas,79196,2.2,116,36,True
+199,Pariatur,Home & Kitchen,HP,29892,4.4,368,35,False
+200,Quo,Fashion,Adidas,75748,1.9,449,35,True
+201,Doloremque,Sports,Samsung,24147,2.1,790,19,False
+202,Fuga,Books,Samsung,24277,4.5,589,42,False
+203,Quia,Fashion,Sony,97620,3.5,41,5,True
+204,Sequi,Toys,LG,59960,2.4,388,19,False
+205,Nisi,Fashion,Samsung,20892,1.6,642,3,True
+206,Error,Sports,HP,87261,2.7,631,28,False
+207,Quis,Sports,Nike,99451,3.0,363,27,True
+208,Voluptas,Sports,Boat,64283,3.1,325,2,True
+209,Eligendi,Toys,Boat,7680,1.0,318,13,True
+210,Ipsa,Sports,Adidas,43507,1.5,519,47,False
+211,Natus,Home & Kitchen,Sony,50334,3.1,245,32,False
+212,Velit,Fashion,LG,97760,1.2,29,29,True
+213,Totam,Books,Boat,56767,3.3,736,40,False
+214,Minima,Sports,Apple,53588,1.1,342,10,False
+215,Nulla,Books,Apple,57740,4.4,259,27,False
+216,Quas,Fashion,LG,41168,4.0,236,21,True
+217,Odio,Fashion,Dell,83498,1.5,532,12,False
+218,Cumque,Books,Sony,31468,1.4,272,12,True
+219,Expedita,Home & Kitchen,Apple,23718,4.8,653,31,False
+220,Et,Grocery,Boat,84778,3.5,649,20,False
+221,At,Home & Kitchen,HP,9450,2.9,656,19,False
+222,Labore,Electronics,Puma,66997,1.3,482,28,True
+223,Adipisci,Electronics,Puma,38127,1.3,894,5,False
+224,Repudiandae,Grocery,Boat,73155,4.8,766,2,False
+225,Quod,Beauty,Puma,79799,2.9,164,3,False
+226,Eum,Fashion,Puma,94126,1.3,671,11,True
+227,Repudiandae,Beauty,HP,58095,3.1,634,10,False
+228,Est,Books,Adidas,51279,2.6,356,43,True
+229,Ab,Books,Apple,43713,1.4,704,24,False
+230,Aut,Sports,Boat,20209,2.3,606,42,True
+231,Voluptatum,Books,Adidas,86490,3.8,411,8,True
+232,Suscipit,Sports,Dell,49872,3.6,346,8,True
+233,Assumenda,Toys,Dell,47925,1.1,326,11,True
+234,Eum,Books,HP,25666,1.9,150,9,True
+235,Atque,Sports,Apple,67043,4.1,865,47,True
+236,Aliquid,Books,Boat,17676,3.4,167,10,True
+237,Iure,Home & Kitchen,HP,6226,2.6,702,46,True
+238,Aut,Grocery,Boat,37846,4.0,812,28,True
+239,Quam,Beauty,Adidas,61974,4.6,208,23,False
+240,Ex,Grocery,Adidas,50552,3.0,438,10,True
+241,Hic,Home & Kitchen,Adidas,7339,3.6,905,23,True
+242,Velit,Fashion,Adidas,11493,4.1,289,28,True
+243,Placeat,Toys,Apple,29602,4.3,915,22,True
+244,Error,Toys,Samsung,52464,3.0,251,24,True
+245,Quis,Books,Nike,4194,2.3,111,45,False
+246,Delectus,Home & Kitchen,Sony,5520,2.1,859,30,True
+247,Rem,Grocery,HP,81154,1.0,91,1,False
+248,Repellat,Beauty,Sony,72432,4.8,633,33,False
+249,Pariatur,Fashion,Adidas,31647,2.2,58,15,False
+250,Exercitationem,Grocery,Apple,15030,4.3,521,38,True
+251,Pariatur,Beauty,Sony,38677,2.7,639,22,True
+252,Nemo,Toys,Sony,87580,3.7,546,23,True
+253,Eaque,Electronics,LG,62121,1.2,406,23,False
+254,Consequatur,Electronics,Puma,9355,2.4,760,42,True
+255,Consequatur,Books,Sony,6311,2.4,356,41,True
+256,Unde,Grocery,HP,83302,1.7,148,4,False
+257,Non,Electronics,Adidas,26922,1.2,214,2,False
+258,Libero,Sports,Dell,52696,5.0,566,30,False
+259,Nisi,Electronics,Nike,38001,2.4,809,3,False
+260,Neque,Sports,Apple,48737,2.7,419,47,False
+261,Omnis,Toys,Puma,24986,3.0,519,23,False
+262,Asperiores,Fashion,LG,10845,2.7,852,11,False
+263,Veniam,Books,Apple,10994,2.3,312,19,False
+264,Ullam,Toys,Sony,90908,2.8,467,2,False
+265,Tenetur,Toys,Adidas,84316,4.9,980,3,True
+266,Consequuntur,Toys,Puma,67751,4.2,705,10,True
+267,Assumenda,Home & Kitchen,Boat,89378,4.1,45,8,True
+268,Necessitatibus,Beauty,Puma,47967,2.5,590,2,True
+269,Labore,Grocery,Puma,49260,2.8,88,36,True
+270,Corrupti,Books,LG,41707,3.6,265,7,True
+271,Expedita,Home & Kitchen,HP,68361,2.5,585,7,False
+272,Earum,Sports,HP,28624,5.0,302,44,False
+273,Eaque,Beauty,Apple,18290,4.4,472,11,False
+274,Quidem,Fashion,Puma,88035,2.4,76,35,False
+275,Occaecati,Sports,Sony,93798,3.8,727,40,True
+276,Deserunt,Books,Dell,29891,1.5,215,50,True
+277,Nisi,Beauty,HP,3945,2.4,596,23,False
+278,Ducimus,Home & Kitchen,Boat,11800,1.3,417,45,False
+279,Hic,Toys,LG,75853,1.3,334,41,True
+280,Officiis,Grocery,HP,89643,3.1,141,49,True
+281,Expedita,Home & Kitchen,LG,66411,4.6,66,7,True
+282,Autem,Sports,Sony,21729,2.3,736,14,False
+283,Numquam,Sports,Apple,33347,1.8,989,35,False
+284,Quo,Home & Kitchen,Adidas,81034,3.1,524,41,True
+285,Consequuntur,Home & Kitchen,Sony,86841,3.5,933,38,False
+286,Architecto,Electronics,Samsung,11146,1.2,666,49,False
+287,Totam,Beauty,Boat,55102,3.5,41,31,False
+288,Quis,Sports,HP,32596,4.2,711,25,False
+289,Accusantium,Grocery,Apple,90757,1.2,460,26,False
+290,Consectetur,Grocery,Nike,45089,3.4,330,45,False
+291,Ex,Books,LG,17639,4.0,537,35,True
+292,Doloremque,Books,Nike,61641,1.5,470,15,True
+293,Nemo,Fashion,Samsung,38538,4.8,894,39,False
+294,Placeat,Beauty,Sony,43417,4.7,748,20,True
+295,Perspiciatis,Home & Kitchen,HP,67966,2.9,910,19,False
+296,Error,Electronics,Apple,52043,3.0,999,15,True
+297,Natus,Books,Samsung,7124,2.1,621,41,False
+298,Assumenda,Sports,Dell,1571,4.4,451,8,False
+299,Doloremque,Books,LG,48464,1.2,62,36,True
+300,Modi,Books,Dell,38327,1.3,526,28,False
+301,A,Fashion,Sony,13172,2.6,823,21,False
+302,Molestias,Home & Kitchen,Nike,79466,3.0,522,2,True
+303,Fuga,Electronics,Sony,94031,2.3,495,33,False
+304,Odit,Home & Kitchen,Boat,68068,1.6,963,39,False
+305,Illo,Home & Kitchen,LG,81305,4.0,316,37,False
+306,Nisi,Grocery,Boat,39794,2.9,27,23,False
+307,Voluptatem,Fashion,LG,77007,2.2,930,46,True
+308,Quos,Grocery,Adidas,86429,4.1,804,37,True
+309,Ut,Electronics,Boat,63473,1.7,654,46,False
+310,Placeat,Home & Kitchen,Nike,4638,3.3,727,7,True
+311,Dolor,Electronics,HP,41616,2.7,432,44,True
+312,Eaque,Toys,Dell,80647,4.7,903,47,True
+313,Impedit,Home & Kitchen,Dell,27676,3.2,688,30,False
+314,Esse,Books,Sony,60749,4.6,360,34,False
+315,Aspernatur,Sports,Boat,63962,1.8,262,17,False
+316,Repellendus,Beauty,Adidas,38380,3.8,716,45,False
+317,Quis,Books,HP,46218,3.2,966,50,False
+318,Assumenda,Sports,Apple,75666,3.7,398,25,False
+319,Ipsam,Home & Kitchen,Adidas,6013,2.2,741,5,False
+320,Aspernatur,Grocery,Adidas,98455,2.9,216,34,False
+321,Architecto,Sports,Sony,14816,3.5,610,15,True
+322,Reprehenderit,Electronics,Dell,30079,3.6,63,6,False
+323,Perferendis,Books,HP,13678,3.7,150,0,True
+324,Provident,Toys,HP,63080,3.6,784,18,False
+325,Quia,Sports,Samsung,12225,3.6,247,34,True
+326,Dolore,Home & Kitchen,LG,23540,4.7,47,25,False
+327,Aspernatur,Home & Kitchen,Adidas,5410,1.0,591,38,True
+328,Quaerat,Books,Adidas,60052,5.0,566,33,False
+329,Beatae,Home & Kitchen,Dell,61844,2.1,838,7,False
+330,Ea,Home & Kitchen,HP,85472,2.0,200,0,False
+331,Atque,Sports,Boat,88895,4.0,189,39,False
+332,Saepe,Toys,Dell,43482,1.3,695,6,True
+333,Atque,Home & Kitchen,HP,42915,4.7,16,16,False
+334,Veniam,Beauty,HP,99296,2.1,347,19,True
+335,Ex,Sports,Puma,91302,1.9,693,7,False
+336,Necessitatibus,Sports,Sony,53638,3.7,955,45,False
+337,Cumque,Fashion,Adidas,48674,3.5,234,8,False
+338,Reiciendis,Home & Kitchen,HP,98507,5.0,392,26,False
+339,Expedita,Beauty,Nike,89673,4.0,904,50,True
+340,Repellendus,Grocery,Dell,92744,2.4,949,36,True
+341,Saepe,Electronics,Dell,66755,1.8,559,9,True
+342,Animi,Books,Dell,58412,1.5,220,45,False
+343,Sit,Fashion,Dell,58890,4.2,474,8,False
+344,Beatae,Grocery,Boat,8067,3.2,698,19,True
+345,Nihil,Toys,Adidas,895,4.0,602,4,True
+346,Unde,Toys,Puma,92300,1.3,71,4,False
+347,Reprehenderit,Electronics,Adidas,54091,1.7,148,49,False
+348,Recusandae,Books,LG,59290,4.5,938,24,False
+349,Quasi,Fashion,Dell,17931,3.6,366,7,True
+350,Ipsam,Toys,Dell,17191,3.9,238,0,True
+351,Facilis,Sports,HP,88776,3.9,444,34,False
+352,Enim,Beauty,Nike,60875,2.4,292,12,True
+353,Velit,Electronics,LG,81099,4.1,914,1,True
+354,Ipsam,Beauty,Apple,13724,3.4,467,38,True
+355,Excepturi,Beauty,Samsung,53225,2.8,562,13,True
+356,Fuga,Home & Kitchen,Dell,38414,1.9,948,46,False
+357,Nam,Books,Nike,40052,4.5,686,33,True
+358,Delectus,Toys,Adidas,36564,1.2,981,37,True
+359,Velit,Toys,Dell,65462,1.2,362,41,False
+360,Tenetur,Books,LG,54011,1.6,395,11,False
+361,In,Beauty,Nike,39918,4.4,157,29,True
+362,Officia,Toys,LG,73544,3.1,407,15,False
+363,Ipsam,Beauty,Puma,85265,1.3,470,23,True
+364,Aut,Beauty,Samsung,35687,2.5,629,38,True
+365,Accusamus,Fashion,Nike,77515,3.9,582,13,False
+366,Officia,Beauty,Puma,40239,4.8,25,13,True
+367,Soluta,Fashion,HP,32297,3.8,730,13,False
+368,Recusandae,Beauty,Dell,42654,4.1,399,29,False
+369,Consequuntur,Sports,Adidas,47639,3.1,519,29,True
+370,Aut,Grocery,Puma,27124,2.5,433,2,True
+371,Quidem,Home & Kitchen,Samsung,34680,3.2,608,37,False
+372,Error,Sports,Sony,26215,2.3,398,36,True
+373,Quae,Grocery,Dell,86300,4.8,355,16,False
+374,Fuga,Grocery,HP,22550,3.9,370,10,True
+375,Delectus,Grocery,Sony,71558,5.0,990,3,True
+376,Laudantium,Fashion,Samsung,1336,2.6,872,40,True
+377,Atque,Fashion,Sony,1698,1.9,476,23,True
+378,Exercitationem,Grocery,HP,2561,1.0,574,26,True
+379,Maxime,Electronics,Dell,95159,2.1,303,1,False
+380,Id,Home & Kitchen,Apple,13124,3.1,256,12,False
+381,Dolore,Books,Adidas,52522,1.3,992,25,False
+382,Nulla,Beauty,Nike,39818,3.7,878,5,True
+383,Quisquam,Fashion,LG,50210,2.5,497,3,True
+384,Voluptatibus,Home & Kitchen,Apple,66017,4.4,670,50,False
+385,Incidunt,Fashion,Dell,6077,1.9,932,44,False
+386,Similique,Sports,Samsung,10244,3.7,297,34,True
+387,Ullam,Home & Kitchen,Puma,2552,4.8,611,9,False
+388,Quia,Fashion,Adidas,21792,3.3,590,24,False
+389,Accusamus,Toys,Sony,90849,3.9,522,47,False
+390,Vel,Electronics,Apple,57790,1.9,87,21,False
+391,Quod,Books,Samsung,83615,2.1,471,31,True
+392,In,Books,Dell,49707,2.7,706,37,False
+393,Ut,Fashion,Boat,39215,4.2,740,4,True
+394,Corporis,Sports,Sony,50307,3.8,659,9,False
+395,Deleniti,Books,Puma,14465,1.4,975,19,False
+396,Fuga,Books,Adidas,13899,1.5,201,27,False
+397,Cum,Toys,Apple,3942,1.4,577,5,False
+398,Corrupti,Toys,Samsung,38753,2.7,807,5,True
+399,Quod,Home & Kitchen,LG,22716,1.6,318,17,False
+400,Dolor,Home & Kitchen,Apple,22416,2.7,441,19,False
+401,Fugit,Fashion,Puma,33490,4.8,748,40,False
+402,Id,Beauty,HP,14521,1.5,16,25,False
+403,Sed,Toys,Puma,58200,2.3,845,41,True
+404,Eos,Sports,Puma,79564,4.8,215,30,False
+405,Laboriosam,Home & Kitchen,LG,42330,2.2,721,40,False
+406,Enim,Beauty,Puma,49790,2.1,814,25,False
+407,Vitae,Fashion,Boat,26688,3.4,568,11,True
+408,Tempora,Grocery,Nike,57969,4.2,861,44,True
+409,Fuga,Toys,HP,18742,3.5,257,16,True
+410,Quae,Toys,LG,10194,2.8,622,30,False
+411,Porro,Toys,Dell,5318,4.2,378,44,True
+412,Explicabo,Fashion,Nike,86693,3.7,180,41,True
+413,Asperiores,Toys,Puma,56920,1.4,110,16,True
+414,Consectetur,Beauty,HP,49536,2.6,800,43,True
+415,Tempora,Books,Samsung,63777,1.4,435,5,True
+416,Nisi,Home & Kitchen,Puma,41380,2.4,813,13,False
+417,Harum,Books,HP,13295,2.8,723,28,False
+418,Aperiam,Fashion,Adidas,6356,4.2,127,1,False
+419,A,Fashion,Sony,97557,2.0,188,35,True
+420,Iusto,Books,Dell,56385,4.8,247,25,True
+421,Delectus,Home & Kitchen,LG,52349,1.1,638,12,False
+422,Tempore,Toys,LG,1083,3.8,220,17,True
+423,Fuga,Fashion,Dell,25005,2.5,211,29,True
+424,Dolorem,Sports,HP,69668,4.9,330,38,False
+425,Numquam,Toys,Boat,15472,2.4,875,29,True
+426,Quod,Sports,Boat,77854,1.3,147,20,True
+427,Voluptatibus,Beauty,Adidas,15828,1.7,720,9,False
+428,Nobis,Toys,Boat,18570,3.3,443,11,False
+429,Ratione,Home & Kitchen,Dell,22371,3.0,153,11,False
+430,Accusamus,Grocery,Boat,7526,4.5,984,0,False
+431,Culpa,Home & Kitchen,Nike,50824,4.9,527,41,False
+432,Autem,Toys,HP,54977,3.8,464,31,True
+433,Voluptas,Fashion,Boat,4544,4.2,235,18,True
+434,Distinctio,Sports,Nike,70965,2.2,809,29,False
+435,Quisquam,Fashion,Boat,15469,2.1,566,23,True
+436,Amet,Grocery,Dell,29144,5.0,114,47,True
+437,Maxime,Sports,Samsung,59447,2.1,892,5,False
+438,Reprehenderit,Fashion,Nike,28009,4.2,612,44,False
+439,Quod,Toys,Sony,81260,1.6,221,13,True
+440,Dignissimos,Books,Dell,37342,3.4,182,20,False
+441,Non,Sports,Boat,35541,4.8,536,43,True
+442,Debitis,Home & Kitchen,LG,8270,5.0,897,41,True
+443,Animi,Home & Kitchen,Nike,19668,3.8,858,15,False
+444,Inventore,Grocery,Sony,76184,3.5,652,26,False
+445,Maiores,Grocery,Apple,83550,4.2,797,5,False
+446,Animi,Sports,Puma,60097,4.8,345,37,True
+447,Magnam,Fashion,HP,83709,3.7,376,4,False
+448,Eos,Beauty,LG,28267,3.0,340,18,False
+449,Vero,Home & Kitchen,Boat,64114,4.2,925,43,True
+450,Expedita,Electronics,Apple,82574,4.1,480,1,True
+451,Vel,Home & Kitchen,HP,60336,1.0,991,27,True
+452,Corporis,Home & Kitchen,Adidas,21337,4.5,907,17,True
+453,Libero,Books,Adidas,11303,2.5,935,41,True
+454,Ratione,Electronics,LG,82499,2.2,726,48,True
+455,Nemo,Toys,Apple,92735,1.4,228,30,True
+456,Sit,Home & Kitchen,Boat,30147,3.1,465,0,True
+457,Dolor,Books,Apple,55853,3.8,499,4,True
+458,Ex,Toys,Apple,96282,4.2,115,20,False
+459,Dolorem,Sports,Sony,50664,4.1,781,8,True
+460,Dolorum,Fashion,Dell,74331,1.0,675,10,False
+461,Neque,Books,Nike,82823,4.0,951,26,False
+462,Alias,Beauty,Apple,13668,1.6,136,37,False
+463,Dolorum,Books,LG,41722,4.2,263,17,True
+464,Iusto,Beauty,Dell,79274,3.4,632,18,True
+465,Neque,Sports,Nike,68362,3.4,203,47,False
+466,Velit,Sports,Samsung,31870,3.0,125,15,False
+467,Expedita,Fashion,Dell,2081,4.9,966,20,True
+468,Fugiat,Toys,Boat,55663,2.5,709,11,False
+469,Dolore,Fashion,Samsung,77486,1.3,278,13,True
+470,Voluptates,Electronics,LG,66902,2.1,739,32,False
+471,Corrupti,Toys,LG,11303,3.6,560,39,True
+472,Modi,Sports,Apple,41120,1.3,953,13,True
+473,Amet,Books,LG,77365,3.5,864,41,True
+474,Optio,Sports,LG,96177,4.8,254,3,True
+475,Est,Fashion,LG,15702,2.8,633,3,False
+476,Eligendi,Home & Kitchen,Apple,2160,3.8,728,0,True
+477,Officia,Grocery,Puma,69051,3.1,852,46,False
+478,Laudantium,Home & Kitchen,Puma,17137,4.0,904,17,True
+479,Inventore,Electronics,Puma,56772,2.1,75,16,True
+480,Eum,Grocery,HP,67449,2.4,521,36,True
+481,Et,Books,Sony,33938,4.1,925,36,True
+482,Alias,Beauty,Dell,836,1.2,893,0,True
+483,Unde,Electronics,HP,48207,2.5,163,11,True
+484,Earum,Toys,Nike,42679,2.0,947,46,False
+485,Natus,Sports,Apple,75412,2.5,524,43,True
+486,Iure,Home & Kitchen,Nike,68103,4.9,986,25,True
+487,Hic,Grocery,Adidas,41223,2.3,576,29,True
+488,Atque,Books,Nike,38719,3.3,321,47,True
+489,Hic,Grocery,Puma,78054,4.9,801,49,True
+490,Laudantium,Beauty,Sony,1335,4.7,34,14,False
+491,Temporibus,Electronics,Puma,691,4.0,395,47,False
+492,Quaerat,Fashion,Nike,69943,4.9,439,31,True
+493,Natus,Home & Kitchen,Adidas,12693,1.2,247,33,False
+494,Veritatis,Books,HP,98528,1.3,107,32,True
+495,Quidem,Toys,Apple,78080,3.3,455,42,True
+496,Iure,Beauty,Adidas,34708,4.4,958,25,False
+497,Aliquam,Books,HP,36145,1.9,976,12,True
+498,Cum,Fashion,Sony,14348,1.7,487,20,False
+499,Facilis,Fashion,Dell,47461,4.9,222,28,False
+500,Dolorum,Grocery,Adidas,16217,1.4,836,43,False
