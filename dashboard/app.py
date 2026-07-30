@@ -3,6 +3,13 @@ import pandas as pd
 import plotly.express as px
 
 from database import load_data
+from forecast import sales_forecast
+from customer_segmentation import customer_segmentation
+from ai_insights import generate_insights
+from ai_chat import ask_ai
+from anomaly_detection import detect_anomalies
+from pdf_report import generate_pdf_report
+from rfm_analysis import rfm_analysis
 
 st.set_page_config(
     page_title="AI Customer Intelligence Dashboard",
@@ -452,3 +459,219 @@ st.download_button(
     file_name="filtered_sales.csv",
     mime="text/csv",
 )
+
+st.markdown("---")
+st.header("🤖 AI Sales Forecast")
+
+try:
+    model, forecast = sales_forecast(sales)
+
+    fig = px.line(
+        forecast,
+        x="ds",
+        y=["yhat", "yhat_lower", "yhat_upper"],
+        labels={
+            "value": "Predicted Revenue",
+            "ds": "Date"
+        },
+        title="Next 30 Days Sales Forecast"
+    )
+
+    fig.update_layout(height=500)
+
+    st.plotly_chart(fig, width="stretch")
+
+    st.success("✅ Forecast generated successfully!")
+
+except Exception as e:
+    st.error(f"Forecast Error: {e}")
+    
+
+st.markdown("---")
+st.header("👥 AI Customer Segmentation")
+
+try:
+    customer_clusters = customer_segmentation(sales)
+
+    # Cluster labels
+    cluster_summary = (
+        customer_clusters.groupby("Cluster")["total_amount"]
+        .mean()
+        .sort_values()
+    )
+
+    mapping = {
+        cluster_summary.index[0]: "Low Value",
+        cluster_summary.index[1]: "Medium Value",
+        cluster_summary.index[2]: "High Value"
+    }
+
+    customer_clusters["Segment"] = customer_clusters["Cluster"].map(mapping)
+
+    fig = px.scatter(
+        customer_clusters,
+        x="quantity",
+        y="total_amount",
+        color="Segment",
+        hover_data=["customer_id"],
+        title="AI Customer Segmentation"
+    )
+
+    fig.update_layout(height=500)
+
+    st.plotly_chart(fig, width="stretch")
+
+    st.subheader("Segment Summary")
+
+    st.dataframe(
+        customer_clusters.groupby("Segment")
+        .agg(
+            Customers=("customer_id", "count"),
+            Revenue=("total_amount", "sum"),
+            Quantity=("quantity", "sum")
+        )
+        .reset_index(),
+        width="stretch"
+    )
+
+except Exception as e:
+    st.error(f"Segmentation Error: {e}")
+    
+st.markdown("---")
+st.header("🤖 AI Business Insights")
+
+try:
+    insights = generate_insights(sales)
+
+    for insight in insights:
+        st.info(insight)
+
+except Exception as e:
+    st.error(f"AI Insights Error: {e}")
+    
+st.markdown("---")
+st.header("💬 AI Business Assistant")
+
+question = st.text_input(
+    "Ask anything about your business data",
+    placeholder="Example: Which state has highest revenue?"
+)
+
+if st.button("Ask AI"):
+    if question.strip():
+        answer = ask_ai(question, sales)
+        st.success(answer)
+    else:
+        st.warning("Please enter a question.")
+        
+st.markdown("---")
+st.header("🚨 AI Anomaly Detection")
+
+try:
+    anomaly_data = detect_anomalies(sales)
+
+    anomaly_data["Status"] = anomaly_data["Anomaly"].map({
+        1: "Normal",
+        -1: "Anomaly"
+    })
+
+    fig = px.scatter(
+        anomaly_data,
+        x="quantity",
+        y="total_amount",
+        color="Status",
+        hover_data=[
+            "first_name",
+            "last_name",
+            "product_name",
+            "state",
+            "total_amount"
+        ],
+        title="Transaction Anomaly Detection"
+    )
+
+    fig.update_layout(height=500)
+
+    st.plotly_chart(fig, width="stretch")
+
+    st.subheader("🚨 Suspicious Transactions")
+
+    st.dataframe(
+        anomaly_data[anomaly_data["Status"] == "Anomaly"],
+        width="stretch"
+    )
+
+except Exception as e:
+    st.error(f"Anomaly Detection Error: {e}")
+    
+    
+    
+st.markdown("---")
+st.header("📄 AI Business Report")
+
+pdf_file = generate_pdf_report(sales)
+
+with open(pdf_file, "rb") as file:
+    st.download_button(
+        label="📥 Download Business Report (PDF)",
+        data=file,
+        file_name="Business_Report.pdf",
+        mime="application/pdf"
+    )
+    
+    
+st.markdown("---")
+st.header("👥 RFM Customer Segmentation")
+
+try:
+    rfm = rfm_analysis(sales)
+
+    col1, col2 = st.columns(2)
+
+    # Segment counts
+    segment_counts = (
+        rfm["Segment"]
+        .value_counts()
+        .rename_axis("Segment")
+        .reset_index(name="Customers")
+    )
+
+    with col1:
+        fig = px.bar(
+            segment_counts,
+            x="Segment",
+            y="Customers",
+            color="Segment",
+            text="Customers",
+            title="Customer Segments"
+        )
+
+        fig.update_layout(height=450)
+
+        st.plotly_chart(fig, width="stretch")
+
+    with col2:
+        fig = px.pie(
+            segment_counts,
+            names="Segment",
+            values="Customers",
+            title="Customer Distribution",
+            hole=0.4
+        )
+
+        fig.update_layout(height=450)
+
+        st.plotly_chart(fig, width="stretch")
+
+    st.subheader("🏆 Top Customers by Monetary Value")
+
+    st.dataframe(
+        rfm.sort_values(
+            by="Monetary",
+            ascending=False
+        ).head(20),
+        width="stretch"
+    )
+
+except Exception as e:
+    st.error(f"❌ RFM Analysis Error: {e}")
